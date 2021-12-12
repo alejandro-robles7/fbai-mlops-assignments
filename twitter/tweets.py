@@ -3,8 +3,8 @@ from st_class import MyStreamListener
 from tweepy import Stream
 from json import loads
 from pandas import DataFrame
-from httplib import HTTPConnection
-from urlparse import urlparse
+from http.client import HTTPConnection
+from urllib.parse import urlparse
 from re import compile, sub
 
 
